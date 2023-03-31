@@ -2,25 +2,7 @@ import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
-
-const NAV__LINK = [
-  {
-    path: "/",
-    display: "Home",
-  },
-  {
-    path: "#about",
-    display: "About",
-  },
-  {
-    path: "#services",
-    display: "Services",
-  },
-  {
-    path: "#contact",
-    display: "Contact",
-  },
-];
+import { NAV__LINK } from "@/const/const";
 
 const Header = () => {
   const headerRef = useRef(null);
