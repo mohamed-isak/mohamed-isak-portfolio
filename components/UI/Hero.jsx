@@ -5,8 +5,16 @@ import Image from "next/image";
 import Link from "next/link";
 import heroImg from "../../public/images/hero.jpg";
 import classes from "../../styles/hero.module.css";
+import { saveAs } from "file-saver";
 
 const Hero = () => {
+  const saveFile = () => {
+    saveAs(
+      "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "example.pdf"
+    );
+  };
+
   return (
     <section className={`${classes.hero}`}>
       <Container>
@@ -15,7 +23,7 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Muhibur Rahman</h2>
+              <h2 className="mt-3 mb-3">I&apos;m Mohamed Isak</h2>
               <h5 className="mb-4">Frontend Developer</h5>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -27,7 +35,7 @@ const Hero = () => {
                   <Link href="#">Hire me</Link>
                 </button>
 
-                <button className="secondary__btn">
+                <button className="secondary__btn" onClick={saveFile}>
                   <Link href="#">Download CV</Link>
                 </button>
               </div>
