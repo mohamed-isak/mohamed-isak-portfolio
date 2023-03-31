@@ -26,9 +26,9 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m Mohamed Isak</h2>
               <h5 className="mb-4">Frontend Developer</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+                Welcome to my portfolio! I'm Mohamed Isak, a web developer with
+                4 years of experience creating custom websites and web
+                applications.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
