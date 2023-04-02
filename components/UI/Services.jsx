@@ -28,11 +28,11 @@ const Services = () => {
             <h3 className="mb-0 mt-4">Better Design,</h3>
             <h3 className="mb-4">Better Experience</h3>
             <p>
-              I'm passionate about building high-quality, user-friendly websites
-              that help businesses and individuals achieve their goals online.
-              Whether you need a simple landing page, a complex e-commerce
-              platform, or anything in between, I have the skills and expertise
-              to deliver a solution that meets your needs.
+              I&apos;m passionate about building high-quality, user-friendly
+              websites that help businesses and individuals achieve their goals
+              online. Whether you need a simple landing page, a complex
+              e-commerce platform, or anything in between, I have the skills and
+              expertise to deliver a solution that meets your needs.
             </p>
           </Col>
         </Row>

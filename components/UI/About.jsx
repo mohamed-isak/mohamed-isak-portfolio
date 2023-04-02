@@ -21,10 +21,10 @@ const About = () => {
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
-              In addition to my technical expertise, I'm also committed to
+              In addition to my technical expertise, I&apos;m also committed to
               delivering exceptional customer service. I believe in building
               strong relationships with my clients and communicating clearly and
-              transparently throughout the development process. I'm always
+              transparently throughout the development process. I&apos;m always
               available to answer questions, provide updates, and ensure that
               your project is on track.
             </p>
