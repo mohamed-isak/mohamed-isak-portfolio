@@ -34,7 +34,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/customer.jpeg"
                     width="50"
                     height="50"
                     className=" rounded-2"
@@ -47,12 +47,9 @@ const Testimonial = () => {
                 </div>
 
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                  Mohamed Isak was very professional and kept me informed
+                  throughout the entire process. The website looks great and is
+                  very user-friendly.
                 </p>
               </div>
 
@@ -60,7 +57,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/customer.jpeg"
                     width="50"
                     height="50"
                     className=" rounded-2"
@@ -73,12 +70,10 @@ const Testimonial = () => {
                 </div>
 
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                  I recently hired Isak to develop a website for my business and
+                  I am extremely happy with the results Isak was also very
+                  responsive to my requests and was always available to answer
+                  my questions.
                 </p>
               </div>
 
@@ -86,7 +81,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/customer.jpeg"
                     width="50"
                     height="50"
                     className=" rounded-2"
@@ -98,12 +93,10 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                  I would highly recommend John&apos;s services to anyone
+                  looking for a skilled and reliable web developer. He was able
+                  to create a website that met all of my requirements and even
+                  suggested some additional features that I had not considered.
                 </p>
               </div>
             </Slider>
