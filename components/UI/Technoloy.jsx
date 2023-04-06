@@ -6,13 +6,13 @@ import TechnologyItemCard from "./TechnologyItemCard";
 
 export default function Technoloy() {
   return (
-    <section className={`${classes.technology}`}>
+    <section id="skills" className={`${classes.technology}`}>
       <Container>
         <Row>
           {/* ========== hero content ============= */}
           <Col lg="12" md="12">
             <div className={`${classes.technology__content}`}>
-              <SectionSubtitle subtitle="Technology" />
+              <SectionSubtitle subtitle="Skills" />
             </div>
             <div className={`${classes.technology__card}`}>
               <TechnologyItemCard
